@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: #000;
+    background-color: #adb5bd;
+
+font-size: 20px;
+font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: #000;
+   text-decoration: none; 
+}
+
+ul { 
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 60px;
+}
+
+/* NAV LEFT */
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 50px;
+}
+
+.nav-main ul li a {
+    padding: 5px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.flecha {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+/* showcase */
+hr {
+    margin: 5px 0;
+}
+
+.showcase {
+    width: 100%;
+    height: 750px;
+    background: url('img/Registrarse\ dos.PNG')no-repeat center center;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    padding: 10px 40px;
+    justify-content: center;
+}
+
+.nombre {
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 7px 22px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin: 5px 100px;
+    border-radius: 40px;
+}
+
+.contraseña {
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 7px 22px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin: 10px 100px;
+    border-radius: 40px;
+}
+
+.contraseña2 {
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 7px 24px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin: 10px 100px;
+    border-radius: 40px;
+
+}
+
+.correo {
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 7px 22px;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin: 0px 100px;
+    border-radius: 40px;
+}
+
+.confirmar {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 7px 22px;
+    background: #8c52ff;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin: 0px 200px;
+    border-radius: 40px;
+}
+
+.btn2 {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 40px;
+    border: 0;
+    font-weight: bold;
+    padding: 1px 50px;
+    color: #000;
+    font-size: 25px;
+    margin: 0px 70px;
+}
+
+.btn2:hover {
+    opacity: .7;
+}
+
+.showcase h2,
+.showcase {
+    margin-bottom: 50px;
+}
+
+.showcase h2 {
+    padding: 7px 22px;
+    background: #8c52ff;
+    color: #000;
+    font-size: 35px;
+    border: 1px solid #000;
+    margin: 0px 200px;
+    border-radius: 20px;
+}
+
+/* social */
+
+.social {
+    margin: 10px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link a {
+    margin: 0 30px;
+}
+
+.link a i {
+    font-size: 3rem;
+}
+
+/* DERECHOS*/
+
+.nav_derechos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+@media (max-width: 700px) {
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .nav-main ul.nav-menu-right {
+        margin-right: 40px;
+    }
+
+    .showcase p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .showcase p {
+        text-align: center;
+    }
+
+    .form-control {
+        text-align: center;
+    }
+}

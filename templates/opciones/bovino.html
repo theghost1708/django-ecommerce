@@ -1,0 +1,325 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mascotascss/img/1.png' %}" type="image/x-icon">
+    <title>FoodPetime -
+      {% block title %}{% endblock title %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{% static 'mascotascss/bovino.css' %}">
+</head>
+<body>
+
+    <div class="">
+        <i class=""></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="{% static 'mascotascss/img/1.png' %}" alt="Foodpetime logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    
+                </li>
+                
+            </ul>
+            <ul class="flecha">
+                <li>
+                    <a href="opciones"> &#8592;</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <h2 class="alimentos"><font face="ARIAL " size="8" color="#"> Bovino.</font></h2>
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <font face="ARIAL " size="4">
+                  <a class="nav-link" href="#item-1">Alimentacion.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Método 1:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Método 2:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Método 3:</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Cuidados del ganado:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-1">1.El ganado se puede estresar:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-2">2. Se tardan horas comiendo:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-3">3. No tienen dientes frontales superiores:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-4">4. Poseen un gran sentido del olfato:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-5">5. Tienen un amplio rango de visión:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-6">6. Reconocen tu voz:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-7">7. No distinguen el color rojo:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-8">8. Duermen muy poco:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-9">9. Son muy sociables:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-10">10. Se considera una especie sagrada:</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-11">11. Son las mayores productoras de leche:</a>
+                  <a class="nav-link" href="#item-3">Vacunas.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">1.Vacunas para el complejo reproductivo bovino:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">2.Vacuna para estomatitis vesicular:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-3">3.Vacuna para rabia paresiante bovina:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-4">4.Vacuna para ántrax:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-5">5.Vacuna para botulismo</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-6">6.Vacuna de brucelosis bovina:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-7">7.Vacuna de fiebre aftosa:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-8">8.Vacunas para el complejo reproductivo bovino:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-9">9.Vacuna para diarreas y neumonías neonatales:</a>
+                  </font>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4><font face="ARIAL BLACK" size="6">Alimentacion.</font></h4>
+                </div>
+                <div id="item-1-1">
+                  <h5><font face="ARIAL BLACK" size="5">Método 1:</font></h5>
+                  <p><font face="ARIAL " size="4">En ese orden de ideas, el método 1 para 
+                    alimentar bovinos parte de la evaluación del ganado en finca con lo que 
+                    se determina el número de animales y su sexo, debido a que los novillos, 
+                    vacas y toros requieren diferentes dietas.
+                  <p>“Las vacas son las que tienen la alimentación más difícil de formular 
+                    porque atraviesan periodos reproductivos que determinan cuándo requieren 
+                    más o menos nutrientes en su dieta (embarazo o lactancia)”</font></p></p>
+                </div>
+                <div id="item-1-2">
+                  <h5><font face="ARIAL BLACK" size="5">Método 2:</font></h5>
+                  <p><font face="ARIAL " size="4">El método 2 hace referencia a la evaluación 
+                    del forraje y el suplemento, ya sea heno, granos, silo o mezclas. 
+                    (Lea: Producción de leche cae 50 % y oferta forrajera en 60 % en Bolívar).
+                  <p>Alex Fernando Gutiérrez, zootecnista y experto en nutrición de ganado de 
+                    leche, dijo que las cualidades proteicas de los forrajes varían según la 
+                    zona, lo que ayudará al ganadero a conocer qué suplemento dar a los 
+                    animales para suplir la ausencia de cualidades nutricionales.</p>
+                  <p>Jhon Harolld Perdomo, médico veterinario y profesional en gestión 
+                    productiva y salud animal de la Federación Colombiana de Ganaderos, 
+                    Fedegán, señaló que el mejoramiento de praderas y la utilización de 
+                    diversas leguminosas es una medida rentable para el productor que quiere 
+                    resultados satisfactorios en cuanto a cantidad y calidad de leche.</p>
+                  <p>“Es de recalcar que antes de pensar en la genética del ganado a incorporar 
+                    en finca se debe hacer mejoramiento de praderas. Un animal mal alimentado 
+                    nunca tendrá buena producción”, puntualizó Perdomo.</font></p></p>
+                </div>
+                <div id="item-1-3">
+                  <h5><font face="ARIAL BLACK" size="5">Método 3:</font></h5>
+                  <p><font face="ARIAL " size="4">Consiste en el diseño de la ración 
+                    de comida para el hato. El ganadero que ha llegado a este punto 
+                    deberá sacar papel y lápiz para calcular la ración a suministrar a sus animales.
+                  <p>“Es importante saber y poder calcular los requerimientos diarios 
+                    del ganado. Típicamente, un bovino come entre 1,5 % y 3 % de su peso 
+                    corporal al día, con un promedio de un 2,5 % de su peso”, se recalca 
+                    en el documento de ganadería.</p>
+                  <p>La medición promedio de comida a proporcionar a cada animal se calcula con 
+                    el peso en libras o kilogramos del animal dividido en 0,025, lo que dará la 
+                    ración total diaria a dar.</p>
+                  <p>“Preste atención al hecho de que las vacas lactantes consumen 50 % o más de lo 
+                    que se considera normal. Esto significa que en vez de consumir 2,5 % de su peso, 
+                    comerán aproximadamente un 5 %”, se aclara en el artículo. (Lea: Cercas vivas y la 
+                    rotación evitan que la brisa seque los pastos ganaderos)</p>          
+                  <p>La dieta bovina debe incluir proteína, energía, minerales y agua todos los días. 
+                    Los expertos en salud animal sugieren a los productores pecuarios buscar asesoría 
+                    para mejorar la producción en su finca.</font></p></p>
+                </div>
+                <div id="item-2">
+                  <h4><font face="ARIAL BLACK" size="5">Cuidados del ganado:</font></h4>
+                  <p><font face="ARIAL " size="4">Los cuidados del ganado deben ser realizados por un 
+                    profesional de la salud animal, un veterinario especializado en ganadería es la mejor 
+                    alternativa. De igual manera la aplicación de medicamentos. Los complejos vitamínicos, 
+                    necesarios para el correcto desarrollo de las vacas, también deben ser guiados por las 
+                    instrucciones para su uso.
+                  <p>Por otro lado, la aplicación de antiparasitarios suele percibirse de una forma más 
+                    sencilla y por lo general, los ganaderos cuentan con el conocimiento. Para su aplicación, 
+                    se usa una jeringa con una cánula, se abre el producto, luego se carga la dosis de acuerdo 
+                    al peso del animal, y se aplica directamente en el animal. Dependiendo del grado de infección 
+                    del animal y el ciclo de producto que utilice el ganadero, se controlarán los parásitos con 
+                    una sola aplicación o más.  Es importante considerar que influyen la edad y la especie del 
+                    animal. Las aplicaciones se hacen normalmente en mayo y octubre.</font></p></p>
+                </div>
+                <div id="item-2-1">
+                  <h5><font face="ARIAL BLACK" size="5">El ganado se puede estresar:</font></h5>
+                  <p><font face="ARIAL " size="4">Las vacas, al igual que las personas, también tienden 
+                    a estresarse, y esto se debe a diversas causas: la temperatura, la falta de alimento 
+                    adecuado o los espacios reducidos. Por eso, es importante que consideres estas recomendaciones:
+                    <p>– El ganado debe tener a su alcance agua fresca, sobre todo en temporadas de calor.</p>
+                    <p>– La comida, al igual que el agua, también debe estar a su alcance todo el tiempo.</p>
+                    <p>– Los alimentos y bebidas deben ser servidos en recipientes limpios, sin agentes 
+                      contaminantes como detergentes.</p>
+                    <p>– Las vacas necesitan espacios amplios para su desplazamiento.</p>
+                    <p>– Los techos altos también son bastante útiles, pues protegen al animal del clima.</p>
+                    <p>La alimentación del ganado es un pilar bastante importante en este sentido, para las 
+                      vacas lecheras y las de engorde, pues a través de una dieta balanceada, su sistema 
+                      inmunológico estará más fortificado.</p>
+                    <p>La ganadería es una de las principales actividades económicas que se llevan a cabo para 
+                      proveer de sustento y alimento a miles de personas. Si estás inmerso en este maravilloso 
+                      oficio, sabrás que la especie bovina es una de las más populares y fascinantes.</font></p></p>
+                </div>
+                <div id="item-2-2">
+                  <h5><font face="ARIAL BLACK" size="5">1. Se tardan horas comiendo:</font></h5>
+                  <p><font face="ARIAL " size="4">¿Sabías que se pasan el 40% del día rumiando? Duran un 
+                    promedio de 6 a 7 horas al día ingiriendo su alimento y alrededor de 8 masticándolo. 
+                    Asimismo, llegan a producir hasta 55 litros de saliva diariamente.</font></p>
+                </div>
+                <div id="item-2-3">
+                  <h5><font face="ARIAL BLACK" size="5">2. No tienen dientes frontales superiores:</font></h5>
+                  <p><font face="ARIAL " size="4">Presentan un total de 32 piezas dentales, pero 
+                    carecen de incisivos en la parte de arriba de sus mandíbulas, en su lugar disponen 
+                    de un tipo de almohadilla rígida que les ayuda a colectar el forraje.</font></p>
+                </div>
+                <div id="item-2-4">
+                  <h5><font face="ARIAL BLACK" size="5">3. Poseen un gran sentido del olfato:</font></h5>
+                  <p><font face="ARIAL " size="4">Los bovinos disponen de un excelente sentido del olfato, 
+                    huelen cosas a una distancia de hasta 10 kilómetros aproximadamente. Además, pueden 
+                    detectar situaciones estresantes a través de la orina y las heces de sus compañeros.</font></p>
+                </div>
+                <div id="item-2-5">
+                  <h5><font face="ARIAL BLACK" size="5">4. Tienen un amplio rango de visión:</font></h5>
+                  <p><font face="ARIAL " size="4">La ubicación de sus ojos a los costados de su cara 
+                    permite que estos animales puedan tener una vista de casi 360° sin realizar ningún 
+                    movimiento de cabeza, solo presentan un pequeño punto ciego en la parte posterior de 
+                    su columna vertebral, justo detrás de su cola.</font></p>
+                </div>
+                <div id="item-2-6">
+                  <h5><font face="ARIAL BLACK" size="5">5. Reconocen tu voz:</font></h5>
+                  <p><font face="ARIAL " size="4">Logran reconocerte porque su oído es muy sensible y consiguen 
+                    identificar el tono en el que se les habla, reaccionando favorablemente a tratos amables y 
+                    delicados. Evitar ruidos fuertes los ayuda a permanecer tranquilos.</font></p>
+                </div>
+                <div id="item-2-7">
+                  <h5><font face="ARIAL BLACK" size="5">6. No distinguen el color rojo:</font></h5>
+                  <p><font face="ARIAL " size="4">Si pensabas que las vacas y los toros se enojan al ver el 
+                    color rojo, esto es incorrecto. Se ha comprobado que este tipo de animales no presentan 
+                    receptores para esta tonalidad, aunque identifican bien las coloraciones amarillas, verdes, moradas y azules.</font></p>
+                </div>
+                <div id="item-2-8">
+                  <h5><font face="ARIAL BLACK" size="5">7. Duermen muy poco:</font></h5>
+                  <p><font face="ARIAL " size="4">Se estima que duermen profundamente solo de 3 a 4 horas diarias 
+                    y, por si esto fuera poco, hacen lo que se llama sueño polifásico, es decir, lo realizan 
+                    durante periodos cortos a lo largo del día.</font></p>
+                </div>
+                <div id="item-2-9">
+                  <h5><font face="ARIAL BLACK" size="5">8. Son muy sociables:</font></h5>
+                  <p><font face="ARIAL " size="4">Al igual que los seres humanos, estos animales son capaces 
+                    de socializar e incluso hacen “mejores amigos”, esto los ayuda a establecer lazos y sentir 
+                    felicidad al estar cerca de ellos, aunque cuando se separan sus niveles de estrés suben.</font></p>
+                </div>
+                <div id="item-2-10">
+                  <h5><font face="ARIAL BLACK" size="5">9. Se considera una especie sagrada:</font></h5>
+                  <p><font face="ARIAL " size="4">En países como la India se consideran vacas 
+                    sagradas a tales animales, los cuales se veneran, debido a que se les reconoce 
+                    como símbolo de fertilidad. Por ello, su sacrificio o agresión están prohibidos 
+                    y quien lo ejecute puede enfrentar cargos judiciales como la cadena perpetua.</font></p>
+                </div>
+                <div id="item-2-11">
+                  <h5><font face="ARIAL BLACK" size="5">10. Son las mayores productoras de leche:</font></h5>
+                  <p><font face="ARIAL " size="4">Las hembras bovinas producen a nivel mundial 
+                    alrededor del 90% de la leche que se consume y se convierte en subproductos 
+                    como el queso, crema, yogurt, entre otros; por ello, son de gran importancia 
+                    para el sector lechero y ganadero.</font></p>
+                </div>
+                <div id="item-3">
+                  <h4><font face="ARIAL BLACK" size="6">Vacunas.</font></h4>
+                </div>
+                <div id="item-3-1">
+                  <h5><font face="ARIAL BLACK" size="5">Vacunas para el complejo reproductivo bovino:</font></h5>
+                  <p><font face="ARIAL " size="4">Estas vacunas deben aplicarse en zonas donde las 
+                    enfermedades infecciosas de origen reproductivo han sido diagnosticadas. 
+                    Protegen contra enfermedades como rinotraqueitis infecciosa bovina, diarrea 
+                    viral bovina, leptospirosis, virus respiratorio sincitial bovino, virus de 
+                    parainfluenza tipo 3 e histofilosis. Algunas de estas vacunas deben ser 
+                    aplicadas cada seis (6) meses, como es el caso de la leptospirosis bovina, 
+                    por este motivo se aconseja aplicarla como vacuna monovalente, o sea que solo proteja 
+                    contra diferentes serovares de la misma bacteria.</font></p>
+                </div>
+                <div id="item-3-2">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna para estomatitis vesicular:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta es una vacuna que solo debe emplearse en zonas 
+                    donde la enfermedad se ha reportado, pero debe asegurarse un buen nivel de protección 
+                    en las épocas del año donde son reportados los brotes de la estomatitis vesicular, de 
+                    esta manera cuando aparezcan los brotes, los animales ya tengan buena respuesta humoral de protección.</font></p>
+                </div>
+                <div id="item-3-3">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna para rabia paresiante bovina:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta vacuna debe aplicarse en las zonas donde se ha 
+                    reportado la enfermedad, deben vacunarse todos los animales mayores de 2 meses. Se 
+                    aplican 2 ml vía subcutánea, mínimo cada año, en zonas de reporte previo de brote. 
+                    En ocasiones la vacuna de rabia viene bivalente acompañada de la vacuna de aftosa.</font></p>
+                </div>
+                <div id="item-3-4">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna para ántrax:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta vacuna solo debe aplicarse en zonas donde existe 
+                    reporte de presentación de casos de carbón bacteriadiano o peste rayo, la frecuencia 
+                    de aplicación debe realizarse cada seis (6) meses en zonas de reporte reciente o cada 
+                    año en zonas de reporte histórico. Se aplican 2 ml vía subcutánea.</font></p>
+                </div>
+                <div id="item-3-5">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna para botulismo</font></h5>
+                  <p><font face="ARIAL " size="4">Esta vacuna debe aplicarse en zonas donde se haya 
+                    reportado casos de botulismo en el ganado, esta vacuna puede aplicarse sola en 
+                    forma monovalente o puede venir incluida en algunas vacunas del complejo clostridial 
+                    usadas para la muerte súbita.</font></p>
+                </div>
+                <div id="item-3-6">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna de brucelosis bovina:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta vacuna se aplica en hembras bovinas entre 3 
+                    y 9 meses de edad. Se emplean las vacunas RB51 o cepa 19 y se puede realizar 
+                    revacunaciones en animales adultos. Tenga presente que los machos no se vacunan.</font></p>
+                </div>
+                <div id="item-3-7">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna de fiebre aftosa:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta vacuna debe aplicarse de acuerdo a cada ciclo de vacunación. 
+                    Se realiza vacunación cada seis meses y deben vacunarse todos los animales mayores de 2 meses. 
+                    La mayoría de estas vacunas se aplican 2 ml vía subcutánea. Esta es una vacuna obligatoria en 
+                    algunos países y no aplicar este biológico puede ocasionarle multas o sanciones.</font></p>
+                </div>
+                <div id="item-3-8">
+                  <h5><font face="ARIAL BLACK" size="5">Vacunas para el complejo reproductivo bovino:</font></h5>
+                  <p><font face="ARIAL " size="4">Estas vacunas deben aplicarse en zonas donde las enfermedades 
+                    infecciosas de origen reproductivo han sido diagnosticadas. Protegen contra enfermedades 
+                    como rinotraqueitis infecciosa bovina, diarrea viral bovina, leptospirosis, virus respiratorio 
+                    sincitial bovino, virus de parainfluenza tipo 3 e histofilosis. Algunas de estas vacunas deben 
+                    ser aplicadas cada seis (6) meses, como es el caso de la leptospirosis bovina, por este motivo 
+                    se aconseja aplicarla como vacuna monovalente, o sea que solo proteja contra diferentes serovares 
+                    de la misma bacteria.</font></p>
+                </div>
+                <div id="item-3-9">
+                  <h5><font face="ARIAL BLACK" size="5">Vacuna para diarreas y neumonías neonatales:</font></h5>
+                  <p><font face="ARIAL " size="4">Este grupo de vacunas debe aplicarse en hembras 
+                    gestantes y han sido diseñadas para generar respuesta humoral a través de la trasmisión de 
+                    anticuerpos maternos vía calostro: Previenen contra enfermedades virales y bacterianas 
+                    relacionadas con cuadros diarreicos severos. Algunas de estas vacunas ayudan a la protección 
+                    contra algunos agentes que ocasionan enfermedad respiratoria en recién nacidos.</font></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+            
+
+        <!-- social -->
+
+        {% block body %}
+  
+        {% endblock body %}    
+    
+    <!-- CUSTOM JS-->
+    <script src="{% static 'mascotascss/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>

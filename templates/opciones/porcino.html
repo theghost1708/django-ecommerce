@@ -1,0 +1,254 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mascotascss/img/1.png' %}" type="image/x-icon">
+    <title>FoodPetime -
+      {% block title %}{% endblock title %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{% static 'mascotascss/porcino.css' %}">
+</head>
+<body>
+
+    <div class="">
+        <i class=""></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="{% static 'mascotascss/img/1.png' %}" alt="Foodpetime logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    
+                </li>
+                
+            </ul>
+            <ul class="flecha">
+                <li>
+                    <a href="opciones"> &#8592;</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <h2 class="alimentos"><font face="ARIAL " size="8" color="#"> Porcino.</font></h2>
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <font face="ARIAL " size="4">
+                  <a class="nav-link" href="#item-1">Alimentacion.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">1.Limpieza y desinfección de la granja.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">2. Almacenamiento, control, suministro y uso de agua.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-3">3. Manejo, Almacenamiento, Control Y Suministro De Alimento.</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Vacunacion y medicamentos.</a>
+                  <a class="nav-link" href="#item-3">Enfermedades y lesiones porcinas.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">1. Bronquitis.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">2. Cólera o peste porcina.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-3">3.Envenenamiento.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-4">4. Hemorroides.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-5">5. Indigestión.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-6">6. Lombrices.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-7">7. Parálisis.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-8">8. Piojera.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-9">9. Neumonía.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-10">10. Reumatismo.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-11">11. Sarna.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-12">12. Tuberculosis.</a>
+                  </font>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4><font face="ARIAL BLACK" size="6" >Alimentacion:</font></h4>
+                  <p><font face="ARIAL " size="4">Las buenas prácticas nutricionales son esenciales para una buena salud y producción del ganado porcino, 
+                    en la ración diaria será necesario proveer de una cantidad adecuada de nutrientes para obtener una buena 
+                    ganancia diaria de peso, este proceso y la cantidad necesaria de alimento apropiado y balanceado para el  
+                    estado productivo del animal que satisfaga sus requerimientos nutricionales de energía, proteína, minerales, 
+                    vitaminas y agua.</font></p>
+                </div>
+                <div id="item-1-1">
+                  <h5><font face="ARIAL BLACK" size="5" >1.Limpieza y desinfección de la granja:</font></h5>
+                  <p><font face="ARIAL " size="4">Una granja limpia evita la presencia de enfermedades y aumenta la producción. Para evitar en lo 
+                    posible que brote enfermedades infecciosas en el porcino se debe seguir un riguroso régimen de 
+                    higiene y sanidad de los animales.</font></p>
+                </div>
+                <div id="item-1-2">
+                  <h5><font face="ARIAL BLACK" size="5" >2. Almacenamiento, control, suministro y uso de agua:</font></h5>
+                  <p><font face="ARIAL " size="4">Para mejorar el consumo se deben revisar cotidianamente los bebederos, comprobar el caudal de agua, 
+                    verificar que el bebedero no esté tapado, ya que si el caudal es demasiado bajo el lechón en 
+                    transición se alejaría del bebedero antes de satisfacer sus necesidades diarias. Se debe tener 
+                    en cuenta la orientación, el ángulo en caso del chupete.</font></p>
+                </div>
+                <div id="item-1-3">
+                  <h5><font face="ARIAL BLACK" size="5" >3. Manejo, Almacenamiento, Control Y Suministro De Alimento:</font></h5>
+                  <p><font face="ARIAL " size="4">La alimentación representa entre un 60 a un 80% de los costos totales de producción. 
+                    Por esto es significativo que el que atiende a los cerdos conozca ciertos criterios 
+                    importantes relacionados con la alimentación eficiente de los cerdos.
+                  <p>Una buena dieta debe incluir componentes nutritivos esenciales como agua, energía, 
+                    proteínas, minerales y vitaminas. La falta de alimentos energéticos disminuye la 
+                    conversión alimentaria y retarda el crecimiento.</p>
+                  <p>Un exceso produce demasiada grasa,causando así perjudicar en la fertilidad de 
+                    las productoras.En cuanto a las proteínas es necesario considerar no solo la cantidad sino la calidad.</p>
+                  <p>Una deficiencia de proteínas en cantidad o calidad causa problemas de apetito y 
+                    anomalías en el pelo y la piel,así como bajo crecimiento particularmente en los porcinos jóvenes.</p>
+                  <p>Los minerales que se requieren en la alimentación de los cerdos son principalmente calcio, 
+                    fósforo, cloro y sodio. Los cerdos generalmente son sensibles a la deficiencia de casi todas las vitaminas.</p>
+                  <p>Un buen alimento proporciona todos los minerales y vitaminas que los cerdos necesitan.</font></p></p>
+                </div>
+                <div id="item-2">
+                  <h4><font face="ARIAL BLACK" size="6" >Vacunacion y medicamentos:</font></h4>
+                  <p><font face="ARIAL " size="4">El buen manejo de los medicamentos para prevenir enfermedades en la Cría De Cerdos es indispensable, 
+                    disminuye el número de aplicaciones por animal, hace que haya menor estrés de los cerdos, trae eficiencia 
+                    en el uso de manode obra en cuanto al tiempo,implementa programas preventivos,disminuye lesiones y abscesos 
+                    por aplicaciones defectuosas, disminuye la diseminación de enfermedades graves y contagiosas, y se 
+                    logra tener un mejor rendimiento productivo de los cerdos.
+                  <p>El sistema inmune responde con la producción de anticuerpos que destruyen a los agentes infecciosos,
+                    generalmente apoyados por las células especializadas del sistema inmune o por neutralización de las toxinas 
+                    que son responsables de enfermedades en los cerdos, por lo que un gran programa de vacunación mejora la 
+                    protección contra enfermedades, los cerdos se enferman menos y dan mejores parámetros productivos.</font></p></p>
+                </div>
+                <div id="item-3">
+                  <h4><font face="ARIAL BLACK" size="6" >Enfermedades y lesiones porcinas:</font></h4>
+                  <p><font face="ARIAL " size="4">Muchas de las enfermedades porcinas saltan fácilmente a la vista, pero es imprescindible que el criador 
+                    conozca en sus primeras manifestaciones los rasgos determinantes de cada una de ellas, a fin de tomar las 
+                    previsiones del caso evitando así el progreso del mal, que en muchos casos llega a ser contagioso, haciendo 
+                    peligrar toda la explotación. En los Cerdos en General:</font></p>
+                </div>
+                <div id="item-3-1">
+                  <h5><font face="ARIAL BLACK" size="5" >1. Bronquitis:</font></h5>
+                  <p><font face="ARIAL " size="4">Es ésta una inflamación de los bronquios, causada por gérmenes, lombrices o polvos, también por excesiva 
+                    humedad, camas mojadas y galpones y corrales sucios, que se presenta en cerdos con tos persistente, leve 
+                    fiebre, inapetencia, mucus nasal y la respiración ruidosa.
+                  <p>Hay que administrar vermifugos, pero, por personas expertas, como también efectuar inhalaciones 
+                    expectorantes: se deben suministrar nuevos e higiénicos reparos; a los lechones alimentarlos con leche.</font></p></p>
+                </div>
+                <div id="item-3-2">
+                  <h5><font face="ARIAL BLACK" size="5" >2. Cólera o peste porcina:</font></h5>
+                  <p><font face="ARIAL " size="4">Producido por un virus filtrable, esta enfermedad es muy contagiosa y se debe poner a los animales 
+                    atacados en manos de veterinarios para que diagnostiquen con seguridad y puedan proceder a su curación.
+                  <p>El único método para tratar el cólera es la aplicación de suero especifico en los animales atacados, 
+                    y como método preventivo la suero-vacunación de los cerdos.</p>
+                  <p>Se conoce esta enfermedad porque los animales pierden el apetito, tienen fiebre y accesos de tos, la 
+                    piel adquiere una pigmentación roja, los músculos se tornan rigidos, los ojos despiden una supuración 
+                    purulenta y adquieren los animales una constipación seguida de diarrea.</p>
+                  <p>Si no es atacada rápidamente, por lo general los cerdos mueren en pocos días.</font></p></p>
+                </div>
+                <div id="item-3-3">
+                  <h5><font face="ARIAL BLACK" size="5" >3.Envenenamiento:</font></h5>
+                  <p><font face="ARIAL " size="4">Cuando se tropieza con casos de envenenamientos, que pueden ser debidos a la ingestión de arsénico, 
+                    plomo, sal común, lejía, alimentes en condiciones muy malas, etc.
+                  <p>Se reconocen porque los animales presentan síntomas comunes de dolores de vientre violentos con una 
+                    muerte rápida o enfermedad lenta con diarrea, para combatir las cuales se deben cambiar de inmediato 
+                    la alimentación y administrar una purga de sales de magnesia en proporción de una cucharada por cada 
+                    45 kilos de peso vivo, suministrando el antídoto correspondiente cuando se descubriera qué clase de 
+                    veneno es el ingerido por el cerdo.</font></p></p>
+                </div>
+                <div id="item-3-4">
+                  <h5><font face="ARIAL BLACK" size="5" >4. Hemorroides:</font></h5>
+                  <p><font face="ARIAL " size="4">Cuando aparece en el ano una membrana roja sangrante llamada mucosa rectal retrovertida, 
+                    es signo de esta enfermedad, cuya causa es una constipación o inflamación del recto, que se 
+                    remedia administrando alimentos laxantes y espolvoreando esa parte afectada con alumbre y calcio, 
+                    cuando no haya que practicar una operación quirúrgica por estar muy avanzado el mal.</font></p>
+                </div>
+                <div id="item-3-5">
+                  <h5><font face="ARIAL BLACK" size="5" >5. Indigestión:</font></h5>
+                  <p><font face="ARIAL " size="4">La indisgestión proviene de inadecuada alimentación y sé manifiesta por pérdida del apetito, 
+                    poca fiebre, constipación y hundimiento de los flancos. En estos casos, cambiar la alimentación, 
+                    licuándola durante algunos días y suministrando a los animales una cucharada de sales laxantes 
+                    por cada 50 kilos de su peso, disuilta en la sopa.</font></p>
+                </div>
+                <div id="item-3-6">
+                  <h5><font face="ARIAL BLACK" size="5" >6. Lombrices:</font></h5>
+                  <p><font face="ARIAL " size="4">Las lombrices en los intestinos comúnmente la llamada Ascaris suis, se reconocen porque el 
+                    animal pierde carne, se reseca la piel, sufre una debilidad general, tiene fiebre, no se 
+                    desarrolla y presenta las orejas caídas.</p>
+                  <p>Entonces hay que mantener el animal atacado de lombrices en ayunas durante medio día y 
+                    después administrarle un antihelmintico a base de aceite de quenopodium.</font></p></p>
+                </div>
+                <div id="item-3-7">
+                  <h5><font face="ARIAL BLACK" size="5" >7. Parálisis:</font></h5>
+                  <p><font face="ARIAL " size="4">Aunque las causas de la parálisis no son exactamente conocidas, esta pérdida del 
+                    control sobre los músculos puede atribuirse a avitaminosis, o sea falta de ciertas vitaminas en la alimentación.
+                  <p>Los machos toman un andar tambaleante y la enfermedad es gradual, mientras que las hembras 
+                    sienten el ataque de golpe y sus miembros posteriores quedan sin movimiento.</p>
+                  <p>No hay tratamientos para estos casos , así que conviene faenar los animales rápidamente.</p>
+                  <p>Suponiendo que las causas provienen de la alimentación, no hay que alimentar los animales 
+                    en crecimiento con maíz.</font></p></p>
+                </div>
+                <div id="item-3-8">
+                  <h5><font face="ARIAL BLACK" size="5" >8. Piojera:</font></h5>
+                  <p><font face="ARIAL " size="4">Un parásito chupador de la sangre, común en el cerdo, es el Haematopinus suis, que le produce 
+                    irritación en la piel, y sí son muchos, llenan de costras.</p>
+                  <p>Para extirparlos se debe bañar a los cerdos con una solución de alquitrán de hulla al 2 por ciento.</font></p></p>
+                </div>
+                <div id="item-3-9">
+                  <h5><font face="ARIAL BLACK" size="5" >9. Neumonía:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta enfermedad se manifiesta en los animales por dificultades en la respiración, accesos de tos, 
+                    secreción nasal fiebre, debilidad general, y poco apetito. Sus causas más comunes son las de 
+                    permanecer acostados en lugares fríos y húmedos, así como cambios de calor a frio; también por gérmenes infecciosos.
+                  <p>Es necesario cuidar que en sus galpones y corrales no haya humedad ni corrientes de aire, que 
+                    tengan camas secas, y si están afectados; friccionar sus costillares con esencia de trementina.</font></p></p>
+                </div>
+                <div id="item-3-10">
+                  <h5><font face="ARIAL BLACK" size="5" >10. Reumatismo:</font></h5>
+                  <p><font face="ARIAL " size="4">También los corrales húmedos o dormir sobre pisos de cemento fríos producen en los cerdos 
+                    afecciones musculares, reumáticas, que los incapacitan para andar; a veces tienen fiebre, 
+                    presentan hinchadas las articulaciones y sufren dolores en los músculos.
+                  <p>Se los trata con una dosis diaria de 0-90 gramos de salicilato de sodio por cada 45 kilos 
+                    de peso, pero hay que prestar atención a sus corrales; cubrir los pisos de cemento con maderas 
+                    o paja seca, no aglomerar animales, dejándolos en lugares secos y con mucho espacio.</font></p></p>
+                </div>
+                <div id="item-3-11">
+                  <h5><font face="ARIAL BLACK" size="5" >11. Sarna:</font></h5>
+                  <p><font face="ARIAL " size="4">La sarna es causada por ácaros que viven sobre la piel y también formando galerías subcutáneas.
+                  <p>Produce en los cerdos picazón que los obliga a rascarse contra lugares duros, formándose 
+                    costras de piel, principalmente en las axilas, en el lomo y detrás de las orejas.</p>
+                  <p>Hay que dar a los animales baños antisárnicos con productos preparados de reconocida 
+                    eficacia, restregando con un cepillo o arpillera las partes afectadas.</font></p></p>
+                </div>
+                <div id="item-3-12">
+                  <h5><font face="ARIAL BLACK" size="5" >12. Tuberculosis:</font></h5>
+                  <p><font face="ARIAL " size="4">Esta enfermedad producida por el Bacilo de Koch es de fácil contagio entre el 
+                    ganado vacuno y el porcino o entre estos últimos; los síntomas son los de neumonía 
+                    y pérdida gradual de carne; los órganos internos se lesionan.
+                  <p>Los tratamientos medicinales no son todavía completamente eficaces; hay que 
+                    tuberculizar los cerdos y proceder a su alimentación únicamente con subproductos 
+                    de lechería pasteurizados y que provengan de tambos donde no existan vacas tuberculosas.</font></p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+
+        <!-- social -->
+
+        {% block body %}
+  
+  {% endblock body %}
+    
+    <!-- CUSTOM JS-->
+    <script src="{% static 'mascotascss/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>

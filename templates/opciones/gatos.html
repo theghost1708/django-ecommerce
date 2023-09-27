@@ -1,0 +1,288 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mascotascss/img/1.png' %}" type="image/x-icon">
+    <title>FoodPetime -
+      {% block title %}{% endblock title %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{% static 'mascotascss/gatos.css' %}">
+</head>
+<body>
+
+    <div class="">
+        <i class=""></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="{% static 'mascotascss/img/1.png' %}" alt="Foodpetime logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    
+                </li>
+                
+            </ul>
+            <ul class="flecha">
+                <li>
+                    <a href="opciones"> &#8592;</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <p class="alimentos"><font face="ARIAL " size="8" color="#"> Gatos.</font></p>
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <font face="ARIAL" size="4" color="#">
+                  <a class="nav-link" href="#item-1">Alimentacion.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Alimentos adicionales que pueden consumir.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">1.Salmón.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-3">2.Aceites de pescado.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-4">3.Huevos cocidos.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-5">4.Queso.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-6">5.Pollo.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-7">6.Pavo.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-8">7.Vegetales variados.</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Enfermedades mas comunes  en felinos.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-1"> 1.Rabia.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-2">2.Virus de la inmunodeficiencia felina.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-3">3.Virus de la leucemia felina.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-4">4.Perionitis (PIF).</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-5">5.Cistitis.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-6">6.Alergias.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-7">7.Conjuntivitis.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-8">8.Otitis.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-9">9.Problemas gastrointestinales.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-10">10.Panleucopenia felina.</a>
+                  <a class="nav-link" href="#item-3">Principales cuidados.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">1.Comidas.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">2.Agua.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-3">3.Mantenimiento óptimo del arenero.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-4">4.Uñas y patas.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-5">5.Ejercítalo mediante el juego.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-6">6.El cepillado.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-7">7.Visitas periódicas al veterinario.</a>
+                <a class="nav-link" href="#item-4">VACUNACION.</a>
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-4-1">1.Rabia.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-4-2">2.Trivalente contra rinotraqueitis.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-4-3">3.Rinotraqueitis.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-4-4">4.Calicivirus.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-4-5">5.La panleucopenia.</a>
+                    <a class="nav-link ms-3 my-1" href="#item-4-6">6.Leucemia felina.</a>
+                </font>
+                </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4><font face="ARIAL BLACK" size="5" color="#">Alimentacion.</font></h4>
+                  <p><font face="ARIAL" size="4" color="#">Los gatos son animales carnívoros, por lo que tienen que incluir la carne en su dieta. A diferencia de los perros, los gatos nunca podrían ser vegetarianos o veganos. Los felinos toman como fuente de energía principal las 
+                    proteínas y necesitan mayores cantidades de éstas que las que necesitan los perros. La carne no es sólo fuente de proteínas, sino que también aporta tres nutrientes esenciales para los gatos: la taurina (para el corazón y la vista), 
+                    el ácido araquidónico (para la salud de la piel y el pelaje) y la vitamina A (para el pelaje y la vista). </font></p>
+                </div>
+                <div id="item-1-1">
+                  <h5><font face="ARIAL BLACK" size="5" color="#"> Además de la comida concentrada que normalmente le suministramos a nuestros gatos, estos son algunos de los alimentos adicionales que estos pueden consumir ejemplos:</font></h5>
+                </div> 
+                <div id="item-1-2">
+                  <h5><font face="ARIAL BLACK" size="5" color="#"> Salmón:</font></h5>
+                  <p><font face="ARIAL" size="4" color="#">Se sabe que los mininos son adeptos al pescado. De todas las posibilidades, el salmón es una buena fuente de Omega 3 y otros ácidos grasos que favorecen la salud de los gatos. Por eso muchos comestibles para felinos están hechos
+                    de salmón, ya que proporciona muchos de los suplementos ideales para los gatos.</font></p>
+                </div>
+                <div id="item-1-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Aceites de pescado:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Este se puede emplear para suplementar la alimentación del gatito. El aceite de salmón y el de bacalao, tienen la virtud de mantener el pelaje de estas mascotas nutrido y humectado, sobre todo en el invierno. Puede conseguirse 
+                        en estado líquido o en pastillas en tiendas naturistas.</font></p>
+                  </div>
+                  <div id="item-1-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Huevos cocidos:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Los huevos aportan proteínas y vitamina B, además de que tienen un delicioso sabor que los felinos adoran. Para prevenir enfermedades, deben estar perfectamente cocinados, para que no haya riesgo para ellos ni para los humanos 
+                        que manipulen sus alimentos.</font></p>
+                  </div>
+                  <div id="item-1-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Queso:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Si un gato demuestra interés en el queso lo mejor es que ingiera las variedades duras como el cheddar, el suizo o el gouda. Todas son excelentes fuentes de calcio y proteínas. Se pueden realizar pequeñas galletas al horno, 
+                        en las que el queso derretido sea el componente principal. Los gatos adoran este tipo de bocaditos.</font></p>
+                  </div>
+                  <div id="item-1-6">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Pollo:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Los gatos son carnívoros y deben consumir dietas que contengan carne. A diferencia de los perros (que son omnívoros), ellos deben no tiene la capacidad de digerir la fibra.
+                        El pollo es entonces una opción saludable para los gatos, ya que tiene proteínas magras de gran calidad. Solo hay que procurar que lo coman cocido y sin la grasa de su piel, la que es preferible remover.</font></p>
+                  </div>
+                  <div id="item-1-7">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Pavo:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Esta es otra fuente de buenas proteínas en la alimentación de un gato. Aunque la introducción repentina de este alimento que tiene vitamina B16, puede causarle algunas molestias como la diarrea. Por eso, lo mejor es 
+                        dárselo como parte de otros alimentos, en pequeñas cantidades, hasta que se acostumbre a esta comida.</font></p>
+                  </div>
+                  <div id="item-1-8">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> Vegetales variados:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Los gatos son carnívoros, tal como lo hemos dicho antes, pero eso no quita la posibilidad de incorporar algunos nutrientes a través de algunos vegetales como chícharos, zapallos, acelga y manzanas. También puede 
+                        suministrárseles arándanos, bananas y melones. Son alimentos saludables para gatos, aunque hay que ofrecérselos con otros suministros, ya que será difícil que los consuman de por sí solos.
+                        No todos los gatos están abiertos a variar su menú, pero si lo hacen se beneficiarán de los nutrientes que pueden obtener de estos alimentos sanos.</font></p>
+                  </div>
+                <div id="item-2">
+                  <h4><font face="ARIAL BLACK" size="5" color="#"> Enfermedades mas comunes  en felinos.</font></h4>
+                </div>
+                <div id="item-2-1">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">1.Rabia:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Un virus que se transmite a través de la mordedura de un animal infectado y se puede transmitir entre diferentes especies (también a humanos), de ahí la importancia de su vacunación.</font></p>
+                  </div>
+                  <div id="item-2-2">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">2.Virus de la inmunodeficiencia felina:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es una enfermedad que puede llegar incluso a ser mortal por el lentivirus y que afecta a gatos adultos no esterilizados principalmente, pero pueden nacer ya con el virus. Además, se transmite por mordedura 
+                        de un animal infectado a otro que no lo esté. Sospechas: infección en la boca o intestinal, patología respiratoria, pérdida de mucho peso</font></p>
+                  </div>
+                  <div id="item-2-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">3.Virus de la leucemia felina:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es una alteración vírica, que en el caso de la leucemia puede llegar a producir algún tipo de cáncer que se trasmite entre felinos por contacto de fluidos corporales (saliva, sangre u orina). Notaremos somnolencia, 
+                        anemia, tumores, debilidad, falta de apetito… Para prevenir lo mejor es vacunar a nuestro gato, pues la enfermedad puede causar la muerte.</font></p>
+                  </div>
+                  <div id="item-2-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 4.Perionitis (PIF):</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es una enfermedad infecciosa de la familia del coronavirus felino (no tiene nada que ver con el coronavirus humano). Aunque puede tener síntomas muy variables, lo más habitual es que aparezca fiebre, anorexia, 
+                        aumento del volumen abdominal por acumulación de líquido. No tiene tratamiento. Existe vacunación, aunque la protección que ofrece no es completa, y hay muchos estudios de investigación en marcha, aunque 
+                        actualmente no hay un tratamiento 100% disponible desde el punto de vista legal. El PIF puede ser mortal sobre todo en gatos de menor edad.</font></p>
+                  </div>
+                  <div id="item-2-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 5.Cistitis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">  Más conocida como infección de orina. El sistema urinario del gato se vuelve más problemático con la edad, pues los minerales obstruyen el conducto urinario, generando dolor al orinar, mucha sed, ausencia de micción, 
+                        lamido en la zona urinaria, vómitos… También verás que el minino orina fuera de su arenero.</font></p></p>
+                  </div>
+                  <div id="item-2-6">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 6.Alergias:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">  Las hay muchas y muy variadas, como en los humanos: a las plantas, al polen, a los hongos, a perfumes, a algunos alimentos, a productos de limpieza, al humo del tabaco, a las picaduras de pulgas y un largo etcétera. 
+                        ¿Cómo identificar una alergia? Tu felino tendrá vómitos, diarrea, tos, estornudos, secreción nasal u ocular, picor en la nariz o en ojos, le caerá el pelo en una zona concreta.</font></p>
+                  </div>
+                  <div id="item-2-7">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 7.Conjuntivitis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Se puede dar a cualquier edad y es una inflamación de la mucosa del ojo, que si no se diagnostica y se trata a tiempo puede derivar en la pérdida de visión. Detectarás sobre todo un exceso de legañas, lagrimeo y 
+                        opacidad en su cornea.</font></p></p>
+                  </div>
+                  <div id="item-2-8">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 8.Otitis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es la inflamación del conducto auditivo, puede generar dolor y llevar a la pérdida de audición. Suele ser por presencia de parásitos (ácaros, hongos o bacterias). Reconocerás la incomodidad de tu gato que se rascará continuamente.</font></p>
+                  </div>
+                  <div id="item-2-9">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 9.Problemas gastrointestinales:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Los detectarás a través de señales como diarrea, vómitos, dolor abdominal, pérdida de apetito o debilidad en el animal. Lo más común es que suceda cuando infiera alimentos en mal estado o por una infección bacteriana, 
+                        presencia de parásitos internos o un virus. Antes cualquier sospecha, acércalo al veterinario de manera urgente.</font></p>
+                  </div>
+                  <div id="item-2-10">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 10.Panleucopenia felina:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es una enfermedad que puede llegar a resultar mortal y los síntomas más comunes son la fiebre, la hipotermia, los vómitos, la diarrea, la debilidad, la anorexia y deshidratación. El tratamiento: hidratación intravenosa 
+                        y antibióticos. También existe vacunación en contra de esta enfermedad.</font></p></p>
+                  </div>
+                  <div id="item-3">
+                    <h4><font face="ARIAL BLACK" size="6" color="#">Principales cuidados.</font></h4>
+                  </div>
+                  <div id="item-3-1">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 1.Comidas:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Siempre de calidad y adaptada a sus etapas de vida. Los gatitos tienen necesidades nutricionales distintas a las de los gatos adultos, centradas en fomentar su correcto desarrollo y crecimiento, y además el número 
+                        de sus tomas diarias suele ser más frecuente. A partir del año, el gato se considera adulto, y suele necesitar alimentos menos calóricos para evitar el posible sobrepeso, u otras variedades de producto que respondan 
+                        a un nuevo estadio de variables ( ejemplo Esterilización).</font>
+                    <p><font face="ARIAL" size="4" color="#"> En ambos casos, gatitos y adultos, lo más recomendable es acostumbrarlos a combinar la alimentación seca con la húmeda (latas o sobres). La alimentación húmeda de calidad contiene un mayor porcentaje de agua 
+                        (aproximadamente, un 80% que se traduce en un buen nivel de hidratación), y más proteínas magras. Además, la alimentación húmeda les aporta otros beneficios adicionales, como la variedad (múltiple combinación de ingredientes), 
+                        y la estimulación de su curiosidad sensorial (recetas con texturas para todo tipo de paladares).</font></p></p>
+                  </div>
+                  <div id="item-3-2">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 2.Agua:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Limpia, en abundancia e idealmente servida en bebederos de acero inoxidable o aluminio. En verano, ubica varios bebederos de estas características en distintos lugares de tu casa, para que tu gato siempre tenga agua a mano si quiere beber.</font></p>
+                  </div>
+                  <div id="item-3-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 3.Mantenimiento óptimo del arenero:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Adquiere un arenero que se adapte bien a sus dimensiones, sobre todo cuando tu gato ya haya alcanzado su etapa adulta. Colócalo en un lugar tranquilo, alejado de la zona de alimentación, bebida y relax. Con ayuda de una 
+                        pala retira sus deposiciones diarias, y cambia la arena con una frecuencia semanal.
+                        Cuando desarrolles esta tarea, procede a limpiar el arenero con algún producto desinfectante lo más neutro posible y nunca tóxico, para evitar que quede algún rastro que pueda incomodar a tu gato. Aprovecha estas labores 
+                        para confirmar que el aspecto de las heces de tu gato no muestra ninguna alteración por la que debas preocuparte.</font></p>
+                  </div>
+                  <div id="item-3-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 4.Uñas y patas:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Acostúmbralo a limarse las uñas en un rascador desde que es gatito. Ésta es la mejor solución para que no recurra a hacerlo en sofás, cortinas y muebles. Añade a este aspecto la rutina del corte de uñas. Ciertamente, 
+                        puede ser una labor compleja y estresante para tu gato y para ti, pero en tiendas especializadas en mascotas puedes adquirir tijeras seguras que impedirán que puedas dañar alguno de sus nervios. Si te ves muy apurado, 
+                        aprovecha una de las visitas al veterinario para que te explique cómo llevar a cabo el corte de uñas en las condiciones más favorables para ambos.</font>
+                    <p><font face="ARIAL" size="4" color="#"> Pon especial atención en las almohadillas de las patas, sobre todo durante la temporada estival, en la que pueden verse expuestas a quemaduras debido al contacto con superficies excesivamente calientes.</font></p></p>
+                  </div>
+                  <div id="item-3-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 5.Ejercítalo mediante el juego:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> No es necesario que le compres un super parque de juego. Con imaginación y algunos remedios caseros, puedes construirle elementos que lo incentiven a jugar e interactuar contigo, tales como pelotas de trapo, cajas de 
+                        cartón con distintos niveles, o premiarle con juguetes tipo ratitas que despertarán sus instintos naturales de caza.</font></p>
+                  </div>
+                  <div id="item-3-6">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 6.El cepillado:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Totalmente imprescindible si tienes un gato con pelo semi largo o largo. Busca aquel momento en el que lo intuyas más tranquilo y predispuesto al contacto contigo, y aprovecha para convertir la rutina del cepillado en una tarea habitual.
+                        En tiendas especializadas en mascotas puedes encontrar la mejor opción de cepillo para cubrir las características de tu gato, teniendo en cuenta que la finalidad es eliminar el exceso de pelo muerto y la consecuente 
+                        formación de nudos o bolas de pelo en el estómago.</font></p>
+                  </div>
+                  <div id="item-3-7">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> 7.Visitas periódicas al veterinario:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> No olvides que los gatos, como ocurre con los perros, también necesitan tener su cartilla de vacunas en regla y pasar por los procesos de desparasitación (interna y externa). Los veterinarios suelen aprovechar estas 
+                        visitas para realizarle una exploración completa a tu gato, inspeccionando sus oídos, estado de sus dientes, aparición de posibles masas, estado de la piel, pelo y ojos.
+                        Este aspecto, de carácter preventivo, ayudará a que tu gato goce de una salud extraordinaria, y te confirmará que está excelentemente bien cuidado.</font></p>
+                  </div>
+                <div id="item-4">
+                  <h4><font face="ARIAL BLACK" size="5" color="#"> VACUNACION.</font></h4>
+                </div>
+                <div id="item-4-1">
+                  <h5><font face="ARIAL BLACK" size="5" color="#"> • Rabia:</font></h5>
+                  <p><font face="ARIAL" size="4" color="#"> aplicar esta vacuna es un requisito legal en algunos países debido a que es mortal y puede transmitirse a humanos con una mordedura. Conoce más acerca de la rabia con nuestro artículo “Mitos y realidades de la rabia”. 
+                    La vacuna de la rabia es una de las vacunas para gatos adultos que deben recibir refuerzos de manera anual.</font></p>
+                </div>
+                <div id="item-4-2">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> • Trivalente contra rinotraqueitis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> calicivirus y panleucopenia. Se suele aplicar, según el calendario de vacunación, entre la octava y la novena semana de vida del gatito y precisa una revacunación tres o cuatro semanas después de la primera dosis.</font></p>
+                  </div>
+                  <div id="item-4-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> • Rinotraqueitis: </font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> Es provocada por el virus del herpes felino común. Los síntomas incluyen estornudos, secreción nasal y babeo. Los ojos de tu gato pueden tener costras mucosas, que provocarán mucho más molestias y a la vez, lo harán 
+                        comer mucho menos de lo normal.Si no se trata esta enfermedad puede causar deshidratación, inanición y, finalmente, la muerte. </font></p>
+                  </div>
+                  <div id="item-4-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> • Calicivirus:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> tiene síntomas similares que afectan el sistema respiratorio y también causan úlceras en la boca. Puede provocar neumonía si no se trata: los gatitos y los gatos mayores son especialmente vulnerables.</font></p>
+                  </div>
+                  <div id="item-4-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> • La panleucopenia:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> también se conoce como moquillo y se transmite fácilmente de un gato a otro. El moquillo es tan común que casi todos los gatos, independientemente de su raza o condiciones de vida, estarán expuestos a 
+                        él durante toda su vida. Es especialmente común en los gatitos que aún no han sido vacunados contra él y los síntomas incluyen fiebre, vómitos y diarrea con sangre. Esta enfermedad progresa rápidamente y 
+                        requiere atención médica inmediata. Sin intervención, un gato puede morir dentro de las 12 horas de contraer la enfermedad.</font></p>
+                  </div>
+                  <div id="item-4-6">
+                    <h5><font face="ARIAL BLACK" size="5" color="#"> • Leucemia felina:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#"> si algún gato en tu hogar pasa tiempo al aire libre o es de los que escapa a menudo, también debes vacunarlo contra el virus.</font></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+        <!-- social -->
+
+        {% block body %}
+  
+        {% endblock body %}
+    
+    <!-- CUSTOM JS-->
+    <script src="{% static 'mascotascss/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>

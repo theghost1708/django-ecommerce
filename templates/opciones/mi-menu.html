@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mascotascss/img/1.png' %}" type="image/x-icon">
+    <title>FoodPetime -
+      {% block title %}{% endblock title %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{% static 'mascotascss/mi-menu.css' %}">
+</head>
+<body>
+
+  <div class="contenedor_loader">
+    <div class="loader"></div>
+  </div>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="{% static 'mascotascss/img/1.png' %}" alt="Foodpetime logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    <a href=""> Menu </a>
+                </li>
+                <li>
+                    <a href="alarmas.html"> Alarmas </a>
+                </li>
+                <li>
+                    <a href="">Perfil</a>
+                </li>
+                <li>
+                    <a href="">Configuracion</a>
+                </li>
+                <li>
+                    <a href="">Notificaciones</a>
+                </li>
+                <li>
+                    <a href="copy2">Politicas de Pivacidad</a>
+                </li>
+                <li>
+                    <a href="{% url "salir" %}">Cerrar sesión</a>
+                </li>
+            </ul>
+            
+            <ul class="flecha">
+                <li>
+                    <a href=""> &#8592;</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <h2 class="alimentos"><font face="ARIAL black" size="4"> Animales domesticos </font></h2>
+        <div class="espacio">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/gato.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../cat" class="gatos"> Gatos </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="peta">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/perros.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../dog" class="perros"> Perros </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lor">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/loros.avif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../parrot" class="Loros"> Loros </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="espacio">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/huron.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../ferret" class="huron" > Hurón </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="rata">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/hamster.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../rata" class="hamster"> Hámster </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lorjava">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/lorosjava.jpg' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../java_parrot" class="loritos1" > Loritos de java </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <h2 class="alimentos"><font face="ARIAL black" size="4"> Agronomía animal </font></h2>
+          <div class="espacio">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/porcino.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../cerdo" class="porcino"> Porcino </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="pollo">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/avicola.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../pollo" class="agricola"> Avicola </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="vaca">
+              <div class="col">
+                <div class="card">
+                  <img src="{% static 'mascotascss/img/animales/bovino.jfif' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="../vaca" class="bovino"> bovino </a></h5>
+                    <p class="card-text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+        <!-- showcase
+        <header class="showcase">
+    <h2> Animales domésticos </h2>
+    <ul class="tarjetas">
+    <li>
+        <a href="gatos.html" class="gatos"> Gatos </a>
+    </li>
+    <li>
+        <a href="perros.html" class="perros"> Perros </a>
+    </li>
+    <li>
+        <a href="loros.html" class="Loros"> Loros </a>
+    </li>
+    <li>
+        <a href="huron.html" class="huron" > Hurón </a>
+    </li>
+    <li>
+        <a href="Hamster.html" class="hamster"> Hámster </a>
+    </li>
+    <li>
+        <a href="Loritos_de_java.html" class="loritos1" > Loritos de java </a>
+    </li>
+    </ul>
+        </header>
+        -->
+        <!-- social -->
+
+      
+        {% block body %}
+  
+        {% endblock body %}
+
+    <!-- CUSTOM JS-->
+    <script src="{% static 'mascotascss/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

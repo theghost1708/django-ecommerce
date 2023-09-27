@@ -1,0 +1,228 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'mascotascss/img/1.png' %}" type="image/x-icon">
+    <title>FoodPetime -
+      {% block title %}{% endblock title %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- FONT OSWALD -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- custom css-->
+    <link rel="stylesheet" href="{% static 'mascotascss/Loritos_de_java.css' %}">
+</head>
+<body>
+
+    <div class="">
+        <i class=""></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="{% static 'mascotascss/img/1.png' %}" alt="Foodpetime logo" class="nav-brand">
+            <ul class="nav-menu show">
+                <li>
+                    
+                </li>
+                
+            </ul>
+            <ul class="flecha">
+                <li>
+                    <a href="opciones"> &#8592;</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <h2 class="alimentos"><font face="ARIAL " size="8" color="#"> Lorito de java.</font></h2>
+        <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <font face="ARIAL" size="4" color="#">
+                  <a class="nav-link" href="#item-1">¡Conoce sobre los loritos de java!</a>
+                  <nav class="nav nav-pills flex-column">
+                  </nav>
+                  <a class="nav-link" href="#item-2">Alimentacion.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-1">1.Alimento base.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-2">2.Snacks para periquitos.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-3">3.Hojas verdes y fruta.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-4">4.La importancia de la cal.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-5">5.Arena para pájaros.</a>
+                  <a class="nav-link ms-3 my-1" href="#item-2-6">6.Agua fresca.</a>
+                  <a class="nav-link" href="#item-3">Principales emfermedades.</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">1.Catarro de buche:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">2.Asma:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">3.Bronquitis:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">4.Epilepsia:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">5.Fracturas:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">6.Paratifosis:</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">7.Piojillo:</a>
+                    <a class="nav-link" href="#item-4">Consejos</a>
+                    <a class="nav-link" href="#item-5">Vacunacion.</a>
+                </font>
+                </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4> <font face="ARIAL BLACK" size="5" color="#">¡Conoce sobre los loritos de java!</font></h4>
+                  <p><font face="ARIAL" size="4" color="#"> Este bello ave es originario de Australia magnifico acompañante para nuestra familia. Usualmente es de color verde  pero a 
+                    través de la cría selectiva o selección artificial se han obtenido nuevas variedades de diferentes colores y tamaños. 
+                    En la actualidad, podemos encontrar periquitos de color blanco, azul, verde y amarillo. 
+                <p>Para determinar el sexo de esta aves es muy fácil solo observando la parte superior del pico en las narinas  algo llamado cera. 
+                    En el caso de los machos esta cera es completamente azul solo en el caso de albinos su color suele ser morado o rosa.
+                <p>En las hembras adultas esta cera puedes ser variable su color dependiendo del estado cuando están en celo son marrones pero 
+                    usualmente suelen ser blancas o color crema.
+                <p>Los inmaduros de ambos sexos tienen esta cera de color rosado. para la determinación de su edad se puede saber mediante 
+                    las lineas de su frente  los jóvenes la tienen cubierta de líneas y los adultos la tienen lisa y despejada  otra manera 
+                    de diferencia su edad es que los periquitos jóvenes tienen el ojo completamente negro y mientras van creciendo les va 
+                    apareciendo en su pupila el aro blanco.
+                <p>Estas aves son muy domesticables y mas cuando se crían en cautiverios ya que algunos suelen ser algo agresivos pero por 
+                    lo general son muy tranquilos. su alimentación  se basa en semillas como el mijo y el alpiste  un se le puede variar 
+                    con frutas y verduras.
+                <p>Para su cría y reproducción  se puede utilizar en su jaula una caja de madera que contenga un hueco para que este oscura 
+                    donde la hembra colocara sus huevos para su posterior incubación y de allí no sale el macho es que se encarga de 
+                    suministrarle el alimento.
+                <p>Usualmente los perros y gatos son las mascotas de preferencia por naturaleza pero estas bellas aves también lo son por 
+                    magníficos colores y comportamiento que te llenaran tu vid de felicidad.</font></p></p>
+                </div>
+                <div id="item-2">
+                  <h4><font face="ARIAL BLACK" size="5" color="#">Alimentacion:</font></h4>
+                  <p><font face="ARIAL" size="4" color="#">Para que tu periquito se mantenga alegre y en forma es importante que su alimentación sea sana y variada. En su país 
+                    de origen, Australia, estos pequeños loros vuelan en grandes bandadas por las praderas, y su alimentación se compone 
+                    sobre todo de semillas de pasto maduras y semimaduras. En este artículo te contamos cuál es la mejor comida para 
+                    periquitos, aparte de alpiste, y todo lo que debe incluir su dieta.</font></p>
+                </div>
+                <div id="item-2-1">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Alimento base para periquitos:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">La mezcla de comida para periquitos que encuentras en las tiendas contiene gran variedad de mijo, semillas y avena. 
+                        Estos son todos los granos que un periquito necesita. Si ves que tu pajarillo elimina del cuenco los granos que 
+                        no le gustan, no le rellenes el comedero con demasiada frecuencia. La alimentación de tu alegre amiguito puede 
+                        desequilibrarse si este solo come lo que le apetece.</font></p>
+                  </div>
+                  <div id="item-2-2">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Snacks para periquitos:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">A la mayoría de los periquitos les encanta el mijo. Puedes fijar las espigas de mijo a la jaula con una pinza o 
+                        colgarlas del techo para el vuelo libre. Así el pequeño loro puede adquirir el alimento por sí solo, al igual 
+                        que lo haría en la naturaleza. Además, puedes conseguir pequeños snacks, como piñas de piñones rellenas de 
+                        semillas, en las tiendas de animales. Con estas exquisiteces le proporcionas variedad y entretenimiento a tu pequeño amigo.</font></p>
+                  </div>
+                  <div id="item-2-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Hojas verdes y fruta:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Los periquitos vuelan por la casa, les encanta escalar y alegran a su entorno con un gran repertorio de sonidos. 
+                        Para mantener esta energía necesitan muchas vitaminas y minerales.
+                    <p>Es importante que a diario se les ofrezcan diferentes tipos de fruta y hoja verde. Cuando salgas a pasear puedes 
+                        traerles hojas verdes frescas. Los pericos gustan mucho de hojas como el diente de león, las acelgas o los berros.
+                    <p>También disfrutan mordisqueando trozos de corteza fresca de ramas de árboles frutales o de hoja perenne.
+                    <p>Con esto, tu periquito, además de cuidar de su pico, ejercita su pequeño cuerpo al moverse por las ramas. 
+                        Por lo demás, estos pequeños loros disfrutan comiendo fruta y verdura como endivias, ensalada, manzana, plátano, 
+                        uvas y zanahoria rallada.
+                    <p>Es fundamental que todo lo que le des sea libre de químicos y no haya sido contaminado por las emisiones de los coches.
+                    <p>Dado que el pequeño organismo de tu perico puede dañarse con solo un poco de toxina, es de vital importancia que 
+                        laves la fruta, las hojas verdes y las ramas siempre con abundante agua antes de dárselas a tu alegre amigo. 
+                        Tampoco es recomendable que tu pequeño juegue con las plantas del hogar, que, a pesar de no ser tóxicas, pueden 
+                        llegar a tener pesticidas.</font></p></p>
+                  </div>
+                  <div id="item-2-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">La importancia de la cal:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Para que el plumaje de tus periquitos se mantenga sano y las hembras puedan producir cáscaras de huevo, es 
+                        recomendable que les des cal. En cualquier tienda especializada puedes conseguir piedras de arcilla para 
+                        periquitos, grit para pájaros y huesos de sepia. Incluso puedes triturarles un poco de cáscara sobrante de 
+                        los huevos cocidos después de pelarlos.</font></p>
+                  </div>
+                  <div id="item-2-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Arena para pájaros:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Los periquitos usan las piedrecillas de la arena para moler los granos en su estómago. Por eso es importante 
+                        que siempre tengan a su alcance arena para pájaros limpia. De esta manera tus pajarillos nunca tendrán dolores 
+                        de barriga y gozarán siempre de una buena digestión.</font></p>
+                  </div>
+                  <div id="item-2-6">
+                  <h4><font face="ARIAL BLACK" size="5" color="#">Agua fresca:</font></h4>
+                  <p><font face="ARIAL" size="4" color="#">El agua del bebedero debe cambiarse a diario. Para eliminar el cloro debes hervir el agua con anterioridad y dejarla enfriar.
+                  <p>Tu periquito se mantendrá sano y en forma si lo alimentas bien y le das suficiente vuelo libre. Solo así 
+                      estará contento y conservará su alegre espíritu.</font></p></p>
+                </div>
+                  <div id="item-3">
+                    <h4><font face="ARIAL BLACK" size="5" color="#">Principales emfermedades.</font></h4>
+                  </div>
+                  <div id="item-3-1">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Catarro de buche:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Se produce cuando el periquito ingiere alimentos adulterados o comida verde sin lavar.
+                    <p>El pájaro está triste, presenta un color violeta o morado, con el buche muy distendido, las plumas erizadas 
+                        y dejan de comer, pero beben con mucha ansia. 
+                    <p>Esta enfermedad dura unos 3-5 días y, lamentablemente, es incurable y el periquito muere.
+                    <p>Para evitarlo, debemos alimentar a nuestra mascota con granos limpios y lechuga bien lavada.</font></p></p>
+                  </div>
+                  <div id="item-3-2">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Asma:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Enfermedad crónica que se caracteriza por la dificultad al respirar.
+                    <p>Es una dolencia difícil de curar (a veces incluso imposible), pero no suele suponer la muerte.
+                    <p>Es importante no cansar al periquito, para que pueda respirar más tranquilamente.</font></p></p>
+                  </div>
+                  <div id="item-3-3">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Bronquitis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Al igual que en el caso de los humanos, se trata de una inflamación de los bronquios y mucosas que recubren las vías aéreas.
+                    <p>Se puede producir a causa de gérmenes, por el polvo, etc. 
+                    <p>Es necesario separarlos de otros ejemplares para evitar el contagio y colocarlos en un lugar ventilado pero sin corrientes de aire.</font></p></p>
+                  </div>
+                  <div id="item-3-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Epilepsia:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Esta patología es común en los ejemplares jóvenes, lo apreciaremos porque los periquitos se muestran muy alterados, 
+                        revolotean por la jaula y terminan por quedar paralizados, lo que ya les impide saltar y volar.
+                    <p>Se trata de una enfermedad incurable.</font></p></p>
+                  </div>
+                  <div id="item-3-5">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Fracturas:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Se produce la rotura de algún huesecillo, normalmente de las alas o las patas.
+                    <p>Generalmente, no supone ninguna complicación, pero una mala soldadura del hueso podría dejar cojo al periquito.</font></p></p>
+                  </div>
+                  <div id="item-3-6">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Paratifosis:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Cuando los periquitos se infectan de esta enfermedad pierden la alegría, dejan de cantar, se quedan con los ojos 
+                        cerrados y respiran aceleradamente, entre otros síntomas. 
+                    <p>Será necesario aislarlos, pero por desgracia tardan muy poco en morir.</font></p></p>
+                  </div>
+                  <div id="item-3-7">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Piojillo:</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Se trata de unos parásitos muy pequeños que se meten bajo las plumas de estas aves a causa de una mala higiene.
+                    <p>Los principales síntomas son las plumas erizadas y el hecho de que los pájaros están inquietos.</font></p></p>
+                  </div>
+                  <div id="item-4">
+                    <h5><font face="ARIAL BLACK" size="5" color="#">Consejos</font></h5>
+                    <p><font face="ARIAL" size="4" color="#">Si crees que tu periquito está enfermo, llévalo al veterinario no lo dudes dos veces !</font></p>
+                  </div>
+                  <div id="item-5">
+                    <h4><font face="ARIAL BLACK" size="5" color="#">Vacunacion.</font></h4>
+                    <p><font face="ARIAL" size="4" color="#">No hay vacunas obligatorias para los loritos de java, sin embargo existe una variante de vacuna que se administra 
+                        en contra del paliomavirus, pero esta no es muy recomendada puesto que puede abrir una puerta a otras enfermedades 
+                        infecciosas en el animalito </font></p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        
+        <!-- social -->
+
+        {% block body %}
+  
+        {% endblock body %}
+    
+    <!-- CUSTOM JS-->
+    <script src="{% static 'mascotascss/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
